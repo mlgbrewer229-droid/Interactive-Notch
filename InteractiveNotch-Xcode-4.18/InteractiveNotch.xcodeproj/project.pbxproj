@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* AppDelegate.swift */; };
+		A10000000000000000000002 /* GlobalHotKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* GlobalHotKeyController.swift */; };
+		A10000000000000000000003 /* NotchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* NotchGeometry.swift */; };
+		A10000000000000000000004 /* NotchInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* NotchInteractionController.swift */; };
+		A10000000000000000000005 /* MediaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* MediaModels.swift */; };
+		A10000000000000000000007 /* MediaSessionProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* MediaSessionProviding.swift */; };
+		A10000000000000000000008 /* SystemVolumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* SystemVolumeController.swift */; };
+		A10000000000000000000009 /* BatteryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* BatteryMonitor.swift */; };
+		A1000000000000000000000A /* NotchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* NotchViewModel.swift */; };
+		A1000000000000000000000B /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* NotchView.swift */; };
+		A1000000000000000000000C /* TrackingHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* TrackingHostingView.swift */; };
+		A1000000000000000000000D /* NotchPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* NotchPanelController.swift */; };
+		A1000000000000000000000E /* NotchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* NotchModels.swift */; };
+		A1000000000000000000000F /* DashboardServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* DashboardServices.swift */; };
+		A10000000000000000000010 /* SystemAudioSpectrumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* SystemAudioSpectrumProvider.swift */; };
+		A10000000000000000000101 /* NotchInteractionControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000101 /* NotchInteractionControllerTests.swift */; };
+		A10000000000000000000102 /* NotchGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000102 /* NotchGeometryTests.swift */; };
+		A10000000000000000000103 /* MediaModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000103 /* MediaModelsTests.swift */; };
+		A10000000000000000000104 /* NotchModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000104 /* NotchModelsTests.swift */; };
+		A10000000000000000000105 /* DashboardServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000105 /* DashboardServicesTests.swift */; };
+		A10000000000000000000106 /* SystemAudioSpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000106 /* SystemAudioSpectrumTests.swift */; };
+		A20000000000000000000001 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* AppKit.framework */; };
+		A20000000000000000000002 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* SwiftUI.framework */; };
+		A20000000000000000000003 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* CoreAudio.framework */; };
+		A20000000000000000000004 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* IOKit.framework */; };
+		A20000000000000000000005 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* Carbon.framework */; };
+		A20000000000000000000006 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* ServiceManagement.framework */; };
+		A20000000000000000000007 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000007 /* AudioToolbox.framework */; };
+		A2000000000000000000000A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000A /* EventKit.framework */; };
+		A2000000000000000000000B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000B /* Accelerate.framework */; };
+		A2000000000000000000000C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000C /* AVFoundation.framework */; };
+		A2000000000000000000000D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000D /* CoreLocation.framework */; };
+		A2000000000000000000000E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000E /* MapKit.framework */; };
+		A20000000000000000000101 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000101 /* XCTest.framework */; };
+		A40000000000000000000001 /* env.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000001 /* env.m */; };
+		A40000000000000000000002 /* get.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000002 /* get.m */; };
+		A40000000000000000000003 /* globals.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000003 /* globals.m */; };
+		A40000000000000000000004 /* keys.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000004 /* keys.m */; };
+		A40000000000000000000005 /* now_playing.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000005 /* now_playing.m */; };
+		A40000000000000000000006 /* repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000006 /* repeat.m */; };
+		A40000000000000000000007 /* seek.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000007 /* seek.m */; };
+		A40000000000000000000008 /* send.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000008 /* send.m */; };
+		A40000000000000000000009 /* shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000009 /* shuffle.m */; };
+		A4000000000000000000000A /* speed.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000A /* speed.m */; };
+		A4000000000000000000000B /* stream.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000B /* stream.m */; };
+		A4000000000000000000000C /* MediaRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000C /* MediaRemote.m */; };
+		A4000000000000000000000D /* Debounce.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000D /* Debounce.m */; };
+		A4000000000000000000000E /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000E /* helpers.m */; };
+		A4000000000000000000000F /* MediaRemoteAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4000000000000000000000F /* MediaRemoteAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40000000000000000000010 /* mediaremote-adapter.pl in Resources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000010 /* mediaremote-adapter.pl */; };
+		A40000000000000000000011 /* MediaRemoteAdapter-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B40000000000000000000011 /* MediaRemoteAdapter-LICENSE */; };
+		A40000000000000000000012 /* MediaRemoteAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B40000000000000000000012 /* MediaRemoteAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A40000000000000000000013 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* AppKit.framework */; };
+		A40000000000000000000014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* Foundation.framework */; };
+		A40000000000000000000015 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20000000000000000000009 /* UniformTypeIdentifiers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = InteractiveNotch;
+		};
+		C10000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40000000000000000000001;
+			remoteInfo = MediaRemoteAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F40000000000000000000001 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (A40000000000000000000012 /* MediaRemoteAdapter.framework in Embed Frameworks */);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* GlobalHotKeyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKeyController.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* NotchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchGeometry.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* NotchInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchInteractionController.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* MediaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModels.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* MediaSessionProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSessionProviding.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* SystemVolumeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVolumeController.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* BatteryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitor.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* NotchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* TrackingHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHostingView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* NotchPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanelController.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* NotchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchModels.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* DashboardServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardServices.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* SystemAudioSpectrumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioSpectrumProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000101 /* NotchInteractionControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchInteractionControllerTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000102 /* NotchGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchGeometryTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000103 /* MediaModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModelsTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000104 /* NotchModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchModelsTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000105 /* DashboardServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardServicesTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000106 /* SystemAudioSpectrumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioSpectrumTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000201 /* InteractiveNotch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveNotch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000202 /* InteractiveNotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveNotchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B20000000000000000000002 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B20000000000000000000003 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B20000000000000000000004 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B20000000000000000000005 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		B20000000000000000000006 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		B20000000000000000000007 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B20000000000000000000008 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B20000000000000000000009 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		B2000000000000000000000A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B2000000000000000000000B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B2000000000000000000000C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B2000000000000000000000D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2000000000000000000000E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B20000000000000000000101 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		B40000000000000000000001 /* env.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/env.m; sourceTree = "<group>"; };
+		B40000000000000000000002 /* get.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/get.m; sourceTree = "<group>"; };
+		B40000000000000000000003 /* globals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/globals.m; sourceTree = "<group>"; };
+		B40000000000000000000004 /* keys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/keys.m; sourceTree = "<group>"; };
+		B40000000000000000000005 /* now_playing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/now_playing.m; sourceTree = "<group>"; };
+		B40000000000000000000006 /* repeat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/repeat.m; sourceTree = "<group>"; };
+		B40000000000000000000007 /* seek.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/seek.m; sourceTree = "<group>"; };
+		B40000000000000000000008 /* send.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/send.m; sourceTree = "<group>"; };
+		B40000000000000000000009 /* shuffle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/shuffle.m; sourceTree = "<group>"; };
+		B4000000000000000000000A /* speed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/speed.m; sourceTree = "<group>"; };
+		B4000000000000000000000B /* stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adapter/stream.m; sourceTree = "<group>"; };
+		B4000000000000000000000C /* MediaRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = private/MediaRemote.m; sourceTree = "<group>"; };
+		B4000000000000000000000D /* Debounce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utility/Debounce.m; sourceTree = "<group>"; };
+		B4000000000000000000000E /* helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utility/helpers.m; sourceTree = "<group>"; };
+		B4000000000000000000000F /* MediaRemoteAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = include/MediaRemoteAdapter.h; sourceTree = "<group>"; };
+		B40000000000000000000010 /* mediaremote-adapter.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "mediaremote-adapter.pl"; sourceTree = "<group>"; };
+		B40000000000000000000011 /* MediaRemoteAdapter-LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = "MediaRemoteAdapter-LICENSE"; path = LICENSE; sourceTree = "<group>"; };
+		B40000000000000000000012 /* MediaRemoteAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaRemoteAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000001 /* AppKit.framework in Frameworks */,
+				A20000000000000000000002 /* SwiftUI.framework in Frameworks */,
+				A20000000000000000000003 /* CoreAudio.framework in Frameworks */,
+				A20000000000000000000004 /* IOKit.framework in Frameworks */,
+				A20000000000000000000005 /* Carbon.framework in Frameworks */,
+				A20000000000000000000006 /* ServiceManagement.framework in Frameworks */,
+				A20000000000000000000007 /* AudioToolbox.framework in Frameworks */,
+				A2000000000000000000000A /* EventKit.framework in Frameworks */,
+				A2000000000000000000000B /* Accelerate.framework in Frameworks */,
+				A2000000000000000000000C /* AVFoundation.framework in Frameworks */,
+				A2000000000000000000000D /* CoreLocation.framework in Frameworks */,
+				A2000000000000000000000E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000000000000000000101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A20000000000000000000101 /* XCTest.framework in Frameworks */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40000000000000000000013 /* AppKit.framework in Frameworks */,
+				A40000000000000000000014 /* Foundation.framework in Frameworks */,
+				A40000000000000000000015 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F40000000000000000000002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A4000000000000000000000F /* MediaRemoteAdapter.h in Headers */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000002 /* InteractiveNotch */,
+				G10000000000000000000101 /* InteractiveNotchTests */,
+				G40000000000000000000001 /* MediaRemoteAdapter */,
+				G10000000000000000000201 /* Frameworks */,
+				G10000000000000000000202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000000000000000000002 /* InteractiveNotch */ = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000003 /* App */,
+				G10000000000000000000004 /* Models */,
+				G10000000000000000000005 /* Services */,
+				G10000000000000000000006 /* UI */,
+				B1000000000000000000000F /* Info.plist */,
+			);
+			path = InteractiveNotch;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000003 /* App */ = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002); path = App; sourceTree = "<group>"; };
+		G10000000000000000000004 /* Models */ = {isa = PBXGroup; children = (B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B1000000000000000000000E); path = Models; sourceTree = "<group>"; };
+		G10000000000000000000005 /* Services */ = {isa = PBXGroup; children = (B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B10000000000000000000010, B10000000000000000000011); path = Services; sourceTree = "<group>"; };
+		G10000000000000000000006 /* UI */ = {isa = PBXGroup; children = (B1000000000000000000000A, B1000000000000000000000B, B1000000000000000000000C, B1000000000000000000000D); path = UI; sourceTree = "<group>"; };
+		G10000000000000000000101 /* InteractiveNotchTests */ = {isa = PBXGroup; children = (B10000000000000000000101, B10000000000000000000102, B10000000000000000000103, B10000000000000000000104, B10000000000000000000105, B10000000000000000000106); path = InteractiveNotchTests; sourceTree = "<group>"; };
+		G10000000000000000000201 /* Frameworks */ = {isa = PBXGroup; children = (B20000000000000000000001, B20000000000000000000002, B20000000000000000000003, B20000000000000000000004, B20000000000000000000005, B20000000000000000000006, B20000000000000000000007, B20000000000000000000008, B20000000000000000000009, B2000000000000000000000A, B2000000000000000000000B, B2000000000000000000000C, B2000000000000000000000D, B2000000000000000000000E, B20000000000000000000101); name = Frameworks; sourceTree = "<group>"; };
+		G10000000000000000000202 /* Products */ = {isa = PBXGroup; children = (B10000000000000000000201, B10000000000000000000202, B40000000000000000000012); name = Products; sourceTree = "<group>"; };
+		G40000000000000000000001 /* MediaRemoteAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				B40000000000000000000001, B40000000000000000000002, B40000000000000000000003,
+				B40000000000000000000004, B40000000000000000000005, B40000000000000000000006,
+				B40000000000000000000007, B40000000000000000000008, B40000000000000000000009,
+				B4000000000000000000000A, B4000000000000000000000B, B4000000000000000000000C,
+				B4000000000000000000000D, B4000000000000000000000E, B4000000000000000000000F,
+				B40000000000000000000010, B40000000000000000000011,
+			);
+			path = Vendor/MediaRemoteAdapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* InteractiveNotch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000001 /* Build configuration list for PBXNativeTarget "InteractiveNotch" */;
+			buildPhases = (F20000000000000000000001 /* Sources */, F10000000000000000000001 /* Frameworks */, F30000000000000000000001 /* Resources */, F40000000000000000000001 /* Embed Frameworks */);
+			buildRules = ();
+			dependencies = (C20000000000000000000002 /* PBXTargetDependency */);
+			name = InteractiveNotch;
+			productName = InteractiveNotch;
+			productReference = B10000000000000000000201 /* InteractiveNotch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000101 /* InteractiveNotchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000101 /* Build configuration list for PBXNativeTarget "InteractiveNotchTests" */;
+			buildPhases = (F20000000000000000000101 /* Sources */, F10000000000000000000101 /* Frameworks */, F30000000000000000000101 /* Resources */);
+			buildRules = ();
+			dependencies = (C20000000000000000000001 /* PBXTargetDependency */);
+			name = InteractiveNotchTests;
+			productName = InteractiveNotchTests;
+			productReference = B10000000000000000000202 /* InteractiveNotchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E40000000000000000000001 /* MediaRemoteAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H40000000000000000000001 /* Build configuration list for PBXNativeTarget "MediaRemoteAdapter" */;
+			buildPhases = (F40000000000000000000004 /* Sources */, F40000000000000000000003 /* Frameworks */, F40000000000000000000002 /* Headers */);
+			buildRules = ();
+			dependencies = ();
+			name = MediaRemoteAdapter;
+			productName = MediaRemoteAdapter;
+			productReference = B40000000000000000000012 /* MediaRemoteAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E10000000000000000000001 = {CreatedOnToolsVersion = 27.0;};
+					E10000000000000000000101 = {CreatedOnToolsVersion = 27.0; TestTargetID = E10000000000000000000001;};
+					E40000000000000000000001 = {CreatedOnToolsVersion = 27.0;};
+				};
+			};
+			buildConfigurationList = H10000000000000000000201 /* Build configuration list for PBXProject "InteractiveNotch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = G10000000000000000000001;
+			productRefGroup = G10000000000000000000202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001, E10000000000000000000101, E40000000000000000000001);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A40000000000000000000010, A40000000000000000000011); runOnlyForDeploymentPostprocessing = 0; };
+		F30000000000000000000101 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E, A1000000000000000000000F, A10000000000000000000010);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20000000000000000000101 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000101, A10000000000000000000102, A10000000000000000000103, A10000000000000000000104, A10000000000000000000105, A10000000000000000000106); runOnlyForDeploymentPostprocessing = 0; };
+		F40000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A40000000000000000000001, A40000000000000000000002, A40000000000000000000003, A40000000000000000000004, A40000000000000000000005, A40000000000000000000006, A40000000000000000000007, A40000000000000000000008, A40000000000000000000009, A4000000000000000000000A, A4000000000000000000000B, A4000000000000000000000C, A4000000000000000000000D, A4000000000000000000000E); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E10000000000000000000001 /* InteractiveNotch */; targetProxy = C10000000000000000000001 /* PBXContainerItemProxy */; };
+		C20000000000000000000002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E40000000000000000000001 /* MediaRemoteAdapter */; targetProxy = C10000000000000000000002 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		I10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			CLANG_ENABLE_MODULES = YES;
+			CODE_SIGN_ENTITLEMENTS = InteractiveNotch/InteractiveNotch.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			COMBINE_HIDPI_IMAGES = YES;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			INFOPLIST_FILE = InteractiveNotch/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = local.InteractiveNotch;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_STRICT_CONCURRENCY = minimal;
+			SWIFT_VERSION = 5.0;
+		}; name = Debug; };
+		I10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			CLANG_ENABLE_MODULES = YES;
+			CODE_SIGN_ENTITLEMENTS = InteractiveNotch/InteractiveNotch.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			COMBINE_HIDPI_IMAGES = YES;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			INFOPLIST_FILE = InteractiveNotch/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = local.InteractiveNotch;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_COMPILATION_MODE = wholemodule;
+			SWIFT_STRICT_CONCURRENCY = minimal;
+			SWIFT_VERSION = 5.0;
+		}; name = Release; };
+		I10000000000000000000101 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = local.InteractiveNotchTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_STRICT_CONCURRENCY = minimal;
+			SWIFT_VERSION = 5.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveNotch.app/Contents/MacOS/InteractiveNotch";
+		}; name = Debug; };
+		I10000000000000000000102 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = local.InteractiveNotchTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_STRICT_CONCURRENCY = minimal;
+			SWIFT_VERSION = 5.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveNotch.app/Contents/MacOS/InteractiveNotch";
+		}; name = Release; };
+		I10000000000000000000201 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			ENABLE_TESTABILITY = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			ONLY_ACTIVE_ARCH = YES;
+			SDKROOT = macosx;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		}; name = Debug; };
+		I10000000000000000000202 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			ENABLE_NS_ASSERTIONS = NO;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			SDKROOT = macosx;
+			SWIFT_COMPILATION_MODE = wholemodule;
+		}; name = Release; };
+		I40000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CODE_SIGN_STYLE = Automatic;
+			DEFINES_MODULE = YES;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			DYLIB_COMPATIBILITY_VERSION = 1;
+			DYLIB_CURRENT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = YES;
+			HEADER_SEARCH_PATHS = "$(SRCROOT)/Vendor/MediaRemoteAdapter/include $(SRCROOT)/Vendor/MediaRemoteAdapter";
+			INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.vandenbe.MediaRemoteAdapter;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SKIP_INSTALL = YES;
+		}; name = Debug; };
+		I40000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CODE_SIGN_STYLE = Automatic;
+			DEFINES_MODULE = YES;
+			DEVELOPMENT_TEAM = RJ6FBG395Y;
+			ENABLE_HARDENED_RUNTIME = YES;
+			DYLIB_COMPATIBILITY_VERSION = 1;
+			DYLIB_CURRENT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = YES;
+			HEADER_SEARCH_PATHS = "$(SRCROOT)/Vendor/MediaRemoteAdapter/include $(SRCROOT)/Vendor/MediaRemoteAdapter";
+			INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.vandenbe.MediaRemoteAdapter;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SKIP_INSTALL = YES;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H10000000000000000000001 /* Build configuration list for PBXNativeTarget "InteractiveNotch" */ = {isa = XCConfigurationList; buildConfigurations = (I10000000000000000000001, I10000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H10000000000000000000101 /* Build configuration list for PBXNativeTarget "InteractiveNotchTests" */ = {isa = XCConfigurationList; buildConfigurations = (I10000000000000000000101, I10000000000000000000102); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H10000000000000000000201 /* Build configuration list for PBXProject "InteractiveNotch" */ = {isa = XCConfigurationList; buildConfigurations = (I10000000000000000000201, I10000000000000000000202); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H40000000000000000000001 /* Build configuration list for PBXNativeTarget "MediaRemoteAdapter" */ = {isa = XCConfigurationList; buildConfigurations = (I40000000000000000000001, I40000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}

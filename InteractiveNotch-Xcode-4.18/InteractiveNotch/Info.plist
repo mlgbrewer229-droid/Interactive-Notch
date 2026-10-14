@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.18</string>
+	<key>CFBundleVersion</key>
+	<string>45</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Interactive Notch shows your upcoming events in the Today module.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Interactive Notch analyzes system audio locally to animate its music spectrum.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Interactive Notch uses the built-in camera only while you have the Mirror open.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Interactive Notch uses your approximate location to show local weather when you open Weather.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Interactive Notch uses your approximate location to show local weather when you open Weather.</string>
+	<key>NSPrefersDisplaySafeAreaCompatibilityMode</key>
+	<false/>
+</dict>
+</plist>
